@@ -63,11 +63,11 @@ class App extends Component {
           isMarkerShown
           // googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places"
           // googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyATX8t28De8FbC9I3mqBxXSHlCvJJgbx_k"
-          googleMapURL="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyDqoBl3H83O5bhKf-36jyQqi2Nlqo3t21A"
+          // googleMapURL="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyCM4Dboy47-UUKpahk62SAuBSnucugs3_M"
+          googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyCM4Dboy47-UUKpahk62SAuBSnucugs3_M"
           // googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyATX8t28De8FbC9I3mqBxXSHlCvJJgbx_k&callback=initMap"
           // 
-          // AIzaSyATX8t28De8FbC9I3mqBxXSHlCvJJgbx_k
-          // AIzaSyDqoBl3H83O5bhKf-36jyQqi2Nlqo3t21A
+          // AIzaSyCM4Dboy47-UUKpahk62SAuBSnucugs3_M
 
           loadingElement={<div style={{ height: `100%` }} />}
           containerElement={<div style={{ height: `400px` }} />}
