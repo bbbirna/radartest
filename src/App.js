@@ -60,19 +60,25 @@ class App extends Component {
         <Maps 
           lat = {this.state.lat}
           lng = {this.state.lng}
-          isMarkerShown
+          
           // googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places"
           // googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyATX8t28De8FbC9I3mqBxXSHlCvJJgbx_k"
           // googleMapURL="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyCM4Dboy47-UUKpahk62SAuBSnucugs3_M"
           // googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyCM4Dboy47-UUKpahk62SAuBSnucugs3_M&v=3.exp"
+
+          googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyCM4Dboy47-UUKpahk62SAuBSnucugs3_M&v=3.31"
           // googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyCM4Dboy47-UUKpahk62SAuBSnucugs3_M&client=926314593300-qm726pio05v6b3pn9912o3ktcmbq7h9c.apps.googleusercontent.com&v=3.31"
+         
           // googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyATX8t28De8FbC9I3mqBxXSHlCvJJgbx_k&callback=initMap"
           // 
           // AIzaSyCM4Dboy47-UUKpahk62SAuBSnucugs3_M
 
           loadingElement={<div style={{ height: `100%` }} />}
           containerElement={<div style={{ height: `400px` }} />}
-          mapElement={<div style={{ height: `100%` }} />} />
+          mapElement={<div style={{ height: `100%` }} />} 
+          isMarkerShown
+          />
+          
         }
         <button onClick={()=>auth.fbLogin()}>Login with facebook</button>
         <button onClick={() =>auth.logOut()}>Log out</button>
