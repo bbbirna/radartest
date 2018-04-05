@@ -6,10 +6,17 @@ module.exports = {
       filename: 'bundle.js',
       publicPath: '/build/'
     },
+    // debug:npm true,
+    devtool: "#eval-source-map",
     devServer:{
       historyApiFallback: true,
-      contentBase: './'
+      contentBase: './',
+      // contentBase: __dirname + "/dist",
+      // compress: false,
+      // port: 3000,
+      
     },
+
   
     module: {
       loaders: [
