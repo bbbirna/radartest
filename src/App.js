@@ -1,4 +1,3 @@
-console.log("APP START")
 import React, { Component } from 'react';
 // import { Redirect, Route, Router } from 'react-router-dom';
 import Maps from './components/Maps';
@@ -44,17 +43,11 @@ class App extends Component {
     .then(function(registration) {
       console.log('The service worker has been registered ', registration);
     });
-
-      // return firebase.database().ref('/users/' + 22).once('value').then(function(snapshot) {
-      //   var username = (snapshot.val() && snapshot.val().username) || 'Anonymous';
-      //   console.log("blabla" + username)
-      // });
   }
 
 
 
   render() {
-    console.log("test :(((")
     return (
       <div className="App">
       <div style="height: 100px; width:100px; background-color: #000;"></div>
